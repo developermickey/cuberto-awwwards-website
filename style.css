@@ -1,3 +1,19 @@
+@font-face {
+    font-family: "Matter";
+    src: url(./fonts/matter-regular.woff2);
+}
+@font-face {
+    font-family: "matterlight";
+    src: url(./fonts/matter-light.woff2);
+}
+@font-face {
+    font-family: "CircularXXWeb";
+    src: url(./fonts/CircularXXWeb-Book.woff2);
+}
+@font-face {
+    font-family: "gallery";
+    src: url(./fonts/gallery-modern-regular.woff2);
+}
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +22,52 @@
 html, body {
     width: 100%;
     height: 100%;
+}
+#main {
+    width: 100%;
+    height: 100%;
+}
+.preloader {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    font-family: matterlight;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.preloader h2{
+    font-size: 10rem;
+    color: #e0fd60;
+}
+.forth {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.forth h2:nth-child(2) {
+    font-size: 10rem;
+    color: #fff;
+}
+.one h2 {
+    margin-left: 300px;
+}
+.two h2 {
+    margin-left: 150px;
+}
+.three {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+}
+.one {
+    overflow: hidden;
+}
+.two {
+    overflow: hidden;
 }
