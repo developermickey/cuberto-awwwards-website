@@ -40,6 +40,7 @@ html, body {
     align-items: flex-start;
     margin-left: auto;
     margin-left: auto;
+    position: absolute;
 }
 .preloader h2{
     font-size: 10rem;
@@ -100,4 +101,10 @@ html, body {
     50% {
         opacity: 1
     }
+}
+#page1 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
 }
