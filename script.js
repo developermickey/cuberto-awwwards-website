@@ -20,6 +20,11 @@ gsap.from(".forth h2",
         y: 300,
         duration: 1, 
 })
+gsap.from(".forth span", 
+    {
+        y: 300,
+        duration: 1, 
+})
 gsap.to(".one h2", 
     {
         x: -200,
