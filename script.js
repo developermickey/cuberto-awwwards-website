@@ -59,3 +59,20 @@ gsap.to(".preloader",
         delay: 4,
         
 })
+
+gsap.to(".dedmosss", {
+
+        duration: 1, 
+})
+gsap.to(".dedmosss", {
+    y: -500,
+    delay: 2,
+    duration: 1, 
+})
+gsap.to(".preloader", 
+    {   
+        y:  "-100%",
+        duration: 1, 
+        delay: 3,
+        
+})
